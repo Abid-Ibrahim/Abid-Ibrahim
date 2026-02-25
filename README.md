@@ -159,4 +159,4 @@ Shared micro-frontend components used across the EY Fabric Platform.
 ## 📫 Let's Connect
 
 - 🐙 **Work GitHub:** [@IN010176407_EYGS](https://github.com/IN010176407_EYGS)
-- 💼 **LinkedIn:** [Connect with me](https://linkedin.com/in/)
+- 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/abid-ibrahim-m-s)
