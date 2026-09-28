@@ -1,162 +1,119 @@
-# 👋 Hi, I'm Abid Ibrahim M S
+# Abid Ibrahim M S
+**Full-Stack Developer | AI Test Automation Engineer @ EY Fabric Platform**
 
-**Full-Stack Developer | AI Test Automation Engineer | EY Fabric Platform**
+Software Engineer at **EY (Ernst & Young)** building AI-powered test automation on the **EY Fabric Platform** — intelligent agents that generate, execute, and self-heal test scripts at enterprise scale.
 
-I'm a software engineer at **EY (Ernst & Young)** building AI-powered test automation tools on the **EY Fabric Platform**. I specialize in designing intelligent agents that generate, execute, and self-heal test scripts - transforming how quality engineering is done at enterprise scale.
-
-> _Active on GitHub since mid-2024 with **211+ PRs authored**, **262+ PRs reviewed**, and contributions across **8 enterprise repositories**._
-
----
+> Active since July 2024: **211+ PRs authored** • **262+ PRs reviewed** • **8 enterprise repositories**
 
 ## 💼 Enterprise Work
 
-I contribute under my EY Enterprise Managed User account:
+Contributions under EY Enterprise Managed User account:
 
 👉 [@IN010176407_EYGS](https://github.com/IN010176407_EYGS)
 
-> _This is an EMU (Enterprise Managed User) account - contributions are not reflected on this personal profile's activity graph._
+> EMU account — contributions don't appear on this personal profile's activity graph.
 
----
+## 📁 Projects
 
-## 📁 Projects & Contributions
+### 1. Scriptless Testing Platform — Frontend
+**[`ct-ado-scriptless`](https://github.com/ey-org/ct-ado-scriptless)** • `React` `TypeScript` `Motif Web Components`
 
-### 🤖 Scriptless Testing Platform - Frontend
-**[`ct-ado-scriptless`](https://github.com/ey-org/ct-ado-scriptless)** • React • TypeScript • Motif Web Components
+Flagship frontend for EY's AI-powered scriptless test automation platform.
 
-The flagship frontend for EY's AI-powered scriptless test automation platform, part of the EY Fabric ecosystem.
+- **Scriptless Agent v1** — Led design + implementation of AI test generation engine
+- **Self-Healing UI** — Locator healing visualization and agent retraining
+- **FastAPI Frontend Migration** — Currently leading full migration to FastAPI backend
+- **Visual Validation UI** — Baseline comparison workflow end-to-end
+- **Auto-Recorder UI** — Event-listener-based action recording
+- **Factory Integration** — Cross-platform connectivity module
+- **Settings & Config** — Project config, GitHub org management, SLA configuration
+- **SLAv2 Integration** — Client/product selector, tenant management, dashboards
+- **AI Test Case Generator** — Error handling, correlation IDs, crash prevention, response dialogs
+- **Platform Features** — Nested test suites, existing browser session execution, community packages UI, keyword docs
+- **Releases** — 3.4.3, 3.7.3, 3.10.3, 3.12.0
+- **Quality** — 100+ bug fixes (race conditions, env vars, duplicates, sub-steps, locators, flow designer resets)
 
-**What I Built:**
-- 🚀 **Scriptless Agent v1** - Led the full design and implementation of an AI-driven test generation engine
-- 🪄 **Self-Healing UI** - Built the visual interface for AI-powered locator healing and agent retraining
-- ⚡ **FastAPI Frontend Migration** - Currently architecting the complete frontend migration to FastAPI backend
-- 🔍 **Visual Validation UI** - End-to-end visual validation feature with baseline comparison
-- 🎬 **Auto-Recorder UI** - Built UI for event-listener-based auto-recording of test actions
-- 🏭 **Factory Integration** - Developed factory integration module for cross-platform connectivity
-- ⚙️ **Settings & Configuration** - Project config, GitHub org management, SLA configuration modules
-- 📊 **SLAv2 Integration** - Full SLA client/product selector, tenant management, dashboard configuration
-- 🧪 **AI Test Case Generator** - Error handling, correlation IDs, crash prevention, response dialogs
-- 📦 **Nested Test Suites** - Enabled creation of nested test suites from the Test Suites UI
-- 🌐 **Existing Browser Session Execution** - Execute tests from an already-open browser session
-- 📚 **Community & Keyword Documentation** - Community packages UI, keyword docs for modules
-- 🏷️ **Release Management** - Managed releases 3.4.3, 3.7.3, 3.10.3, 3.12.0
-- 🐛 **100+ Bug Fixes** - Race conditions, env variables, duplicates, sub-steps, element locators, flow designer resets
+### 2. Test Automation Framework — Backend
+**[`ctp-taf`](https://github.com/ey-org/ctp-taf)** • `Python` `AI/ML` `Selenium`
 
-### 🧪 Test Automation Framework - Backend
-**[`ctp-taf`](https://github.com/ey-org/ctp-taf)** • Python • AI/ML • Selenium
+Backend framework powering scriptless testing with self-healing.
 
-The backend test automation framework powering scriptless testing with AI-driven self-healing capabilities.
+- **Locator Self-Healing Engine** — AI-driven element recovery during execution
+- **Parallel Execution Healing** — Self-healing for concurrent runs with multiple reports
+- **Visual Validation Engine** — Image comparison, cropping, NumPy integration
+- **Auto-Recorder Backend** — Event-listener recording engine
+- **AI Execution Engine** — AI-powered execution with dependency management
+- **Agent Enhancement** — Bing Search integration for test context
+- **Compatibility** — SSO browser + AI agent fixes, DeepEval log fixes, existing browser session support
+- **Optimization** — Self-healing package install/management fixes
+- **Release** — 3.12.0
 
-**What I Built:**
-- 🧬 **Locator Self-Healing Engine** - AI-driven element recovery during test execution
-- ⚡ **Parallel Execution Healing** - Solved self-healing in concurrent test runs with multiple reports
-- 🕸️ **Agent Bing Search Integration** - Connected AI agents to web search for enhanced test context
-- 👁️ **Visual Validation Engine** - Full visual validation backend with image comparison, cropping, numpy integration
-- 🎬 **Auto-Recorder Backend** - Event listener-based test action recording engine
-- 🤖 **AI Execution Engine** - Backend for AI-powered test execution with dependency management
-- 🔧 **SSO Mode Fixes** - Resolved SSO browser and AI agent compatibility issues
-- 📊 **DeepEval Integration** - Warning log fixes for DeepEval evaluation framework
-- 🌐 **Existing Browser Session BE** - Backend for executing tests from existing browser windows/tabs
-- 📦 **Self-Healing Package Optimization** - Fixed package installation and management
-- 🏷️ **Release Management** - Managed release 3.12.0
+### 3. Scriptless API Service
+**[`ey-fabric-scriptless-api`](https://github.com/ey-org/ey-fabric-scriptless-api)** • `Python` `FastAPI`
 
-### 🕴️ Scriptless API Service
-**[`ey-fabric-scriptless-api`](https://github.com/ey-org/ey-fabric-scriptless-api)** • Python • FastAPI
+- **Azure DevOps Git Integration** — Full ADO Git version-control operations
+- **Security** — CodeQL compliance across codebase
+- **Migration** — Leading backend changes for FastAPI frontend migration
 
-Backend API service powering the scriptless testing platform.
+### 4. GAIA QA Scriptless Automation
+**[`ctp-gaia-qa-scriptless`](https://github.com/ey-org/ctp-gaia-qa-scriptless)** • `Test Automation` `CI/CD`
 
-**What I Built:**
-- 🔗 **Azure DevOps Git Integration** - Full ADO Git implementation for version control operations
-- 🛡️ **CodeQL Security Compliance** - Applied security recommendations across the codebase
-- 🔄 **Backend Migration** - Currently leading BE changes for the FastAPI frontend migration
+QA suite for GAIA, EY's next-gen development platform.
 
-### 🧩 GAIA QA Scriptless Automation
-**[`ctp-gaia-qa-scriptless`](https://github.com/ey-org/ctp-gaia-qa-scriptless)** • Test Automation • CI/CD
+- Homepage automation (P1 coverage), global navigation + header tests
+- Developer journey / onboarding flow automation
+- Catalog, workspace management, and licensing automation
+- CI/CD pipeline fixes and maintenance QA
 
-QA automation suite for the GAIA platform - the next-gen EY development experience.
+### 5. Micro-Frontend (MFE) Framework
+**[`mfe-fw-userprofile`](https://github.com/ey-org/mfe-fw-userprofile)** • **[`mfe-fw-leftnavigation`](https://github.com/ey-org/mfe-fw-leftnavigation)** • `React` `Webpack Module Federation`
 
-**What I Built:**
-- 🏠 **Homepage Automation** - Complete homepage test automation with P1 priority coverage
-- 🧭 **Global Navigation & Header Tests** - End-to-end test cases for platform navigation
-- 🛣️ **Developer Journey Automation** - Automated the complete developer onboarding flow
-- 📚 **Catalog & Workspace Functions** - Workspace management and catalog automation
-- 🔧 **Pipeline & Maintenance** - CI/CD pipeline fixes and maintenance QA
-- 📄 **License Management** - New workspace licensing automation
+- Designated reviewer / maintainer for all PRs
+- Security gatekeeper for Dependabot patches
+- Architecture oversight for platform standards
 
-### 🧩 Micro-Frontend (MFE) Framework
-**[`mfe-fw-userprofile`](https://github.com/ey-org/mfe-fw-userprofile)** • **[`mfe-fw-leftnavigation`](https://github.com/ey-org/mfe-fw-leftnavigation)** • React • Webpack Module Federation
-
-Shared micro-frontend components used across the EY Fabric Platform.
-
-**My Role:**
-- 👁️ **Code Reviewer & Maintainer** - Designated reviewer for all PRs including security/dependency updates
-- 🔒 **Security Gatekeeper** - Review and approve Dependabot security patches
-- 🏗️ **Architecture Oversight** - Ensure MFE components follow platform standards
-
-### 🛠️ QA InnerSource & Training
+### 6. QA InnerSource & Training
 **[`ct-qa-innersource`](https://github.com/ey-org/ct-qa-innersource)** • **[`training`](https://github.com/ey-org/training)**
 
-- 📦 **Excel Utils Dependency Update** - Updated shared utility dependencies
-- 🔌 **SeleniumUtils Plugin** - Reviewed and maintained shared Selenium utility plugins
-
----
+- Excel Utils dependency update
+- SeleniumUtils plugin review and maintenance
 
 ## 📈 Contribution Summary
 
----
+| Metric | Count |
+|---|---|
+| PRs Authored | 211+ |
+| PRs Reviewed | 262+ |
+| Review Requested | 129+ |
+| Repositories | 8 |
+| Active Since | July 2024 |
+| Status | Active (as of Feb 2026) |
 
-📝 PRs Authored        ████████████████████████████ 211+
-👀 PRs Reviewed        ███████████████████████████████████ 262+
-🔔 Review Requested    █████████████████ 129+
-📦 Repositories        ██ 8
-📅 Active Since        July 2024
-🔄 Currently Active    Yes (PRs open as of Feb 2026)
-
-### Monthly Activity Heatmap
----
-2024 Jul ██ Aug ████ Sep ███ Oct ████ Nov ███ Dec ███
-2025 Jan ██ Feb ███ Mar ████ Apr ████ May ██ Jun ██ Jul ███
-     Aug ██ Sep ███ Oct ███ Nov ██ Dec ████
-2026 Jan ████ Feb ████ ← current
----
-
----
+**Monthly Activity:** Consistent contributions Jul 2024 → Feb 2026, peak activity in release months.
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-`React 18` • `TypeScript` • `Motif Web Components` • `MobX` • `Webpack Module Federation` • `MFE Architecture`
+**Frontend:** React 18, TypeScript, Motif Web Components, MobX, Webpack Module Federation, MFE Architecture
 
-**Backend**
-`Python` • `FastAPI` • `Selenium` • `AI/ML` • `DeepEval` • `Self-Healing Algorithms`
+**Backend:** Python, FastAPI, Selenium, Self-Healing Algorithms, DeepEval
 
-**AI & Agents**
-`Azure OpenAI` • `LLM Integration` • `Bing Search API` • `Autonomous Test Agents` • `Visual Validation (NumPy)`
+**AI & Agents:** Azure OpenAI, LLM Integration, Bing Search API, Autonomous Test Agents, Visual Validation (NumPy)
 
-**DevOps & Cloud**
-`Azure DevOps (Git, Pipelines, Test Plans)` • `GitHub Enterprise (EMU)` • `CodeQL` • `CI/CD` • `Azure Blob Storage`
+**DevOps & Cloud:** Azure DevOps (Git, Pipelines, Test Plans), GitHub Enterprise (EMU), CodeQL, CI/CD, Azure Blob Storage
 
-**Architecture**
-`Micro-Frontend (MFE)` • `RESTful APIs` • `SSO/Enterprise Auth` • `Browser Database (IndexedDB)`
+**Architecture:** Micro-Frontends, REST APIs, SSO / Enterprise Auth, IndexedDB
 
----
+## 🎯 Core Expertise
 
-## 🎯 What I Do Best
+- **AI Test Agents** — Generation, execution, and self-healing
+- **Self-Healing Frameworks** — Locator recovery for parallel execution
+- **Visual Validation** — Baseline comparison and image analysis
+- **Full-Stack Delivery** — React UI to Python backend across 8 repos
+- **Enterprise Integration** — SLAv2, tenants, products at scale
+- **Platform Migration** — FastAPI migration lead
+- **Release & Quality** — Multi-repo releases, 262+ PR reviews
 
-| Area | Impact |
-|---|---|
-| 🤖 **AI-Powered Test Agents** | Built autonomous agents that generate, execute, and self-heal test scripts |
-| 🧬 **Self-Healing Frameworks** | Designed locator recovery systems for parallel execution environments |
-| 👁️ **Visual Validation** | End-to-end visual testing with baseline comparison and image analysis |
-| 🧱 **Full-Stack Development** | Ship features from React UI to Python backend across 8 repositories |
-| 📊 **SLA & Enterprise Integration** | Built SLAv2 configuration, tenant/product management at enterprise scale |
-| 🔄 **Platform Migration** | Currently leading FastAPI frontend migration for the entire platform |
-| 🧩 **GAIA QA Automation** | Automated developer journey and platform navigation for next-gen EY tooling |
-| 👁️ **Code Review & Mentorship** | Reviewed 262+ PRs - ensuring quality, security, and architecture standards |
-| 🏷️ **Release Engineering** | Managed multiple production releases across frontend and backend |
+## 📫 Connect
 
----
-
-## 📫 Let's Connect
-
-- 🐙 **Work GitHub:** [@IN010176407_EYGS](https://github.com/IN010176407_EYGS)
-- 💼 **LinkedIn:** [Connect with me](https://www.linkedin.com/in/abid-ibrahim-m-s)
+- Work GitHub: [@IN010176407_EYGS](https://github.com/IN010176407_EYGS)
+- LinkedIn: [abid-ibrahim-m-s](https://www.linkedin.com/in/abid-ibrahim-m-s)
